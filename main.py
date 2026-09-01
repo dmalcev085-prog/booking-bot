@@ -6,7 +6,7 @@ from flask import Flask, request
 import telebot
 from telebot import types
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8666795532:AAFICKdumXhvFSVm9GVzRNyZ2UJNMMq9EQg")
+BOT_TOKEN = os.environ.get("BOT_TOKEN"), ("8845140241:AAFykPP-lypxMkzrc_oxn4YbWtRb6UyGuPI")
 ADMIN_CHAT_ID = os.environ.get("ADMIN_CHAT_ID", "8083694619")
 RENDER_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_URL", "https://booking-bot-6j3w.onrender.com")
 
