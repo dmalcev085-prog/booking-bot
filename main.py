@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 
 # Заміни на свій новий токен з BotFather
-BOT_TOKEN = os.getenv("BOT_TOKEN", "ТВІЙ_НОВИЙ_ТОКЕН")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8845140241:AAFykPP-lypxMkzrc_oxn4YbWtRb6UyGuPI")
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "8083694619")
 RENDER_EXTERNAL_URL = os.getenv("RENDER_EXTERNAL_URL")
 
