@@ -7,7 +7,7 @@ from telebot import types
 from apscheduler.schedulers.background import BackgroundScheduler
 
 # --- НАЛАШТУВАННЯ ТА ЗМІННІ ОТОЧЕННЯ ---
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = os.environ.get("8845140241:AAFykPP-lypxMkzrc_oxn4YbWtRb6UyGuPI")
 ADMIN_CHAT_ID = os.environ.get("ADMIN_CHAT_ID", "8083694619")
 RENDER_EXTERNAL_URL = os.environ.get("RENDER_EXTERNAL_URL")
 
