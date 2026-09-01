@@ -9,7 +9,7 @@ from telebot.apihelper import ApiTelegramException
 
 # --- 1. ТОКЕНИ ТА НАЛАШТУВАННЯ ---
 RAW_TOKEN = os.environ.get("BOT_TOKEN")
-DEFAULT_TOKEN = "8666795532:AAFICKdumXhvFSVm9GVzRNyZ2UJNMMq9EQg"
+DEFAULT_TOKEN = ("8845140241:AAFykPP-lypxMkzrc_oxn4YbWtRb6UyGuPI")
 
 BOT_TOKEN = RAW_TOKEN.strip() if (RAW_TOKEN and isinstance(RAW_TOKEN, str) and RAW_TOKEN.strip()) else DEFAULT_TOKEN
 ADMIN_CHAT_ID = os.environ.get("ADMIN_CHAT_ID", "8083694619")
