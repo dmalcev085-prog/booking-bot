@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 
 # --- НАЛАШТУВАННЯ ТА ЗМІННІ ОТОЧЕННЯ ---
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8666795532:AAFICKdumXhvFSVm9GVzRNyZ2UJNMMq9EQg")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8845140241:AAFykPP-lypxMkzrc_oxn4YbWtRb6UyGuPI")
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID", "8083694619")
 RENDER_EXTERNAL_URL = os.getenv("RENDER_EXTERNAL_URL")
 
